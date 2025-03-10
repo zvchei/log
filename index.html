@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Log of random thoughts</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="A journal of unexpected insights, random observations, and unfiltered thoughts">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica:ital@0;1&display=swap" rel="stylesheet">
+	<style>
+		html {
+			--line-height: 25px;
+
+			align-items: center;
+			display: flex;
+			justify-content: center;
+
+			box-sizing: border-box;
+			height: 100%;
+			margin: 0;
+			padding: 0;
+			width: 100%;
+		}
+
+		body {
+			font-family: "IM Fell Double Pica", "Times New Roman", serif;
+			font-size: calc(var(--line-height) * 0.76);
+			font-style: normal;
+			font-weight: 400;
+			line-height: var(--line-height);
+
+			background-color: #f8f5ed;
+			background-image: repeating-linear-gradient(0deg, transparent, transparent 22px, rgba(0, 0, 0, 0.05) 25px), repeating-linear-gradient(90deg, transparent, transparent 22px, rgba(0, 0, 0, 0.05) 25px);
+			color: #231d4a;
+
+			align-items: center;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		h2 {
+			font-size: 120%;
+		}
+
+		main {
+			width: 547px;
+		}
+
+		article {
+			margin-top: var(--line-height);
+			/* text-align: left; */
+		}
+
+		article:not(:last-child)::after {
+			display: block;
+			margin-top: var(--line-height);
+
+			content: "* * *";
+			font-size: 200%;
+			letter-spacing: 1em;
+			text-align: center;
+		}
+
+		article h2:last-of-type,
+		article p:first-of-type {
+			display: inline;
+		}
+
+		time {
+			display: block;
+			font-size: 80%;
+			text-align: left;
+			font-style: italic;
+			padding-bottom: 6px;
+		}
+
+		footer {
+			margin-top: calc(var(--line-height) * 2);
+			font-size: 70%;
+			font-weight: 700;
+		}
+
+		.accent {
+			font-variant: small-caps;
+			font-size: 106%;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>Log of random thoughts</h1>
+	</header>
+	<main>
+		<!-- articles -->
+	</main>
+	<footer>
+		<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+			<a property="dct:title" rel="cc:attributionURL" href="https://zvchei.github.io/log/">This writing</a>
+			by
+			<a class="accent" rel="cc:attributionURL dct:creator" property="cc:attributionName"
+				href="https://github.com/zvchei">zvchei</a>
+			is marked with
+			<a href="https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1" target="_blank"
+				rel="license noopener noreferrer" style="display:inline-block;">
+				CC0 1.0
+				<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+					src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"
+					alt="Creative Commons">
+				<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+					src="https://mirrors.creativecommons.org/presskit/icons/zero.svg?ref=chooser-v1" alt="CC0">
+			</a>
+		</p>
+	</footer>
+</body>
+
+</html>
